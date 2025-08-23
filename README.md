@@ -161,7 +161,7 @@ The generation process follows the structured prompt format shown in the figure 
 
 ## Efficiency Analysis
 <div align="center">
-<img src="assets/efficiency_tradeoff.png" alt="Efficiency vs Performance" width="700"/>
+<img src="assets/efficiency_tradeoff.jpg" alt="Efficiency vs Performance" width="700"/>
 <p><em>Inference time vs. nDCG@10 performance on TREC DL19</em></p>
 </div>
 
