@@ -81,7 +81,7 @@
 </div>
 
 <div align="center">
-<img src="assets/radar_chart.png" alt="Performance Comparison" width="600"/>
+<img src="assets/radar_chart.jpg" alt="Performance Comparison" width="600"/>
 <p><em>nDCG@5 performance across TREC DL19 and BEIR datasets</em></p>
 </div>
 
