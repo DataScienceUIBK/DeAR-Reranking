@@ -1,10 +1,10 @@
 # DeAR: Dual-Stage Document Reranking with Reasoning Agents 🎯
 
 <div align="center">
-  <a href="https://arxiv.org/abs/XXXX.XXXXX">
+  <a href="https://arxiv.org/abs/2508.16998">
     <img src="https://img.shields.io/badge/Paper-arXiv-red">
   </a>
-  <a href="https://github.com/your-username/DeAR-Reranking">
+  <a href="https://github.com/DataScienceUIBK/DeAR-Reranking">
     <img src="https://img.shields.io/badge/Code-GitHub-black">
   </a>
   <a href="#datasets">
@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-green">
   </a>
   <a href="#">
-    <img src="https://api.visitorbadge.io/api/visitors?path=[https://github.com/DataScienceUIBK/DeAR-Reranking](https://github.com/DataScienceUIBK/DeAR-Reranking)" style="height: 20px;">
+    <img src="https://api.visitorbadge.io/api/visitors?path=https://github.com/DataScienceUIBK/DeAR-Reranking" style="height: 20px;">
   </a>
 </div>
 
