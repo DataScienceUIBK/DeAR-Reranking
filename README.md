@@ -238,6 +238,14 @@ Track the latest results on our community leaderboard:
 If you use DeAR in your research, please cite our paper:
 
 ```bibtex
+@misc{abdallah2025dear,
+    title={DeAR: Dual-Stage Document Reranking with Reasoning Agents via LLM Distillation},
+    author={Abdelrahman Abdallah and Jamshid Mozafari and Bhawna Piryani and Adam Jatowt},
+    year={2025},
+    eprint={2508.16998},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
 ```
 
 # 📞 Contact & Support
