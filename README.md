@@ -20,13 +20,13 @@
 
 <div align="center" style="font-family: Arial, sans-serif;">
   <p>
-    <a href="#news" style="text-decoration: none; font-weight: bold;">🎉 News</a> 
-    <a href="#introduction" style="text-decoration: none; font-weight: bold;">📖 Introduction</a> 
-    <a href="#methodology" style="text-decoration: none; font-weight: bold;">🔬 Methodology</a>
+    <a href="#news" style="text-decoration: none; font-weight: bold;">🎉 News</a>  •
+    <a href="#introduction" style="text-decoration: none; font-weight: bold;">📖 Introduction</a>  •
+    <a href="#methodology" style="text-decoration: none; font-weight: bold;">🔬 Methodology</a> •
   </p>
   <p>
-    <a href="#installation" style="text-decoration: none; font-weight: bold;">🚀 Installation</a>
-    <a href="#results" style="text-decoration: none; font-weight: bold;">📊 Results</a> 
+    <a href="#installation" style="text-decoration: none; font-weight: bold;">🚀 Installation</a> •
+    <a href="#results" style="text-decoration: none; font-weight: bold;">📊 Results</a>  •
     <a href="#citation" style="text-decoration: none; font-weight: bold;">🎈 Citation</a>
   </p>
 </div>
