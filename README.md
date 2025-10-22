@@ -537,10 +537,11 @@ If you use DeAR in your research, please cite our paper:
 ## 🙏 Acknowledgements
 
 We thank the following projects and their contributors:
+- [Rankify](https://github.com/DataScienceUIBK/Rankify)  A Comprehensive Python Toolkit for Retrieval, Re-Ranking, and Retrieval-Augmented Generation
 - [LLaMA](https://github.com/facebookresearch/llama) for the base models
 - [PEFT](https://github.com/huggingface/peft) for efficient fine-tuning
 - [Transformers](https://github.com/huggingface/transformers) for the modeling infrastructure
-- [RankLLaMA](https://github.com/rankllama/rankllama) for inspiring our teacher model design
+- [RankLLaMA](https://github.com/castorini/rank_llm) for inspiring our teacher model design
 - [Tevatron](https://github.com/texttron/tevatron)  Unified Document Retrieval Toolkit across Scale, Language, and Modality. 
 
 ---
