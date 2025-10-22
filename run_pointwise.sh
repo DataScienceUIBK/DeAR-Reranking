@@ -46,7 +46,7 @@ for jsonl_file in $BM25_DIR/*.jsonl; do
 
     if [ ! -f "$BM25_DIR_PREDICT/${dataset}.txt" ]; then
         # Run reranker inference
-        CUDA_VISIBLE_DEVICES=0 python inference.py \
+        CUDA_VISIBLE_DEVICES=0 python pointwise_reranker/inference.py \
             --output_dir=temp \
             --model_name_or_path $RERANKER_CHECKPOINT \
             --tokenizer_name $TOKENIZER \
@@ -65,11 +65,11 @@ for jsonl_file in $BM25_DIR/*.jsonl; do
     fi
 
     # Convert results to TREC format
-    python convert_result_to_trec.py \
+    python pointwise_reranker/convert_result_to_trec.py \
         --input "$BM25_DIR_PREDICT/${dataset}.txt" \
         --output "$BM25_DIR_PREDICT/ranked_${dataset}.trec"
     echo "[${dataset}] Converting TREC to JSON..."
-    python convert_trec_to_json.py --path "$BM25_DIR_PREDICT" --out "$BM25_DIR_PREDICT"
+    python pointwise_reranker/convert_trec_to_json.py --path "$BM25_DIR_PREDICT" --out "$BM25_DIR_PREDICT"
     echo "[${dataset}] JSON saved (e.g., $BM25_DIR_PREDICT/ranked_${dataset}.json)"
     # Run evaluation using correct qrels
     eval_result=$(python -m pyserini.eval.trec_eval -c -m ndcg_cut.10 ${QRELS[$dataset]} "$BM25_DIR_PREDICT/ranked_${dataset}.trec")

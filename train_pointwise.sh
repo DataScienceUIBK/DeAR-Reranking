@@ -18,7 +18,7 @@ export WANDB_MODE=disabled
 export NCCL_P2P_DISABLE=0
 export NCCL_IB_DISABLE=0
 
-deepspeed --include localhost:0,1,2,3 reranker_train.py \
+deepspeed --include localhost:0,1,2,3 pointwise_reranker/reranker_train.py \
   --deepspeed ./config/ds_config.json \
   --output_dir ./models/test_training \
   --model_name_or_path meta-llama/Llama-3.1-8B \
