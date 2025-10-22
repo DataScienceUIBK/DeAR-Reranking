@@ -7,7 +7,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-paper-red)](https://arxiv.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-[**🌐 Homepage**](https://github.com/yourusername/DeAR-Reranking) | 
+[**🌐 Homepage**](https://github.com/DataScienceUIBK/DeAR-Reranking) | 
 [**🤗 Models**](https://huggingface.co/collections/abdoelsayed/dear-reranking) | 
 [**📊 Dataset**](https://huggingface.co/datasets/abdoelsayed/DeAR-COT) | 
 [**📝 Paper**](https://arxiv.org/abs/2508.16998)
