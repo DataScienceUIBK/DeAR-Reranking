@@ -106,7 +106,7 @@ pip install pyserini==0.22.1
 
 ### Clone Repository
 ```bash
-git clone https://github.com/yourusername/DeAR-Reranking.git
+git clone https://github.com/DataScienceUIBK/DeAR-Reranking.git
 cd DeAR-Reranking
 pip install -r requirements.txt
 ```
